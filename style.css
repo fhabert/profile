@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+    font-family:'Roboto', sans-serif;
+    font-weight: light;
+    background-color:#F6F3F6;
+    color: rgb(40,40,40);
+    margin: 0;
+}
+p {
+    font-size: 24px;
+    font-weight: 600;
+    color: #313D72;
+}
+h1 {
+    font-family: 'Poppins',  sans-serif;
+    color: #313D72;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 150px;
+}
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color:#313D72;
+}
+h1, h2, p {
+    letter-spacing: 1px;
+}
+a {
+    text-decoration: none;
+}
+
+
+/* Specific design */
+.btn-blue {
+    color:white;
+    border-radius: 5px;
+    padding: 8px 20px;
+    border: 1px solid transparent;
+    transition-delay: 100ms;
+    transition-duration: 100ms;
+    background-color: #5466B6;
+}
+.btn-blue:hover {
+    background-color: white;
+    border: 1px solid #5466B6;
+    color: #5466B6;
+}
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li {
+    display: inline-block;
+    font-size: 48px;
+    margin-left: 20px;
+    color: #5466B6;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+}
+.list-inline li:hover {
+    /* box-shadow: 0 5px 10px rgba(0,0,0,.6); */
+    border-bottom: 2px solid #5466B6;
+    transition-delay: 150ms;
+    transition-duration: 100ms;
+}
+.list-inline a {
+    color:#5466B6;
+}
+.white-card {
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    border-radius: 4px; 
+    margin: 0 auto; 
+    padding: 30px;
+    margin-bottom: 40px;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.text-center {
+    text-align: center;
+}
+.navbar-white {
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    height: 64px;
+    padding: 10px;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    color: #313D72;
+}
+.container {
+    width: 700px;
+    margin:0 auto;
+}
+
+/* Details id */
+
+#intro p {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+#navbar {
+    margin-left: 15px;
+}
+#navbar li {
+    margin-left: 32px;
+    font-weight: 600;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+    font-size: 28px;
+    display: inline-block;
+}
+#navbar a {
+    color:#313D72;
+}
+#navbar li:hover {
+    border-bottom: 2px solid #313D72;
+    transition-delay: 150ms;
+    transition-duration: 100ms;
+}
+#logoHome-margin a {
+    padding-bottom: 10px;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
